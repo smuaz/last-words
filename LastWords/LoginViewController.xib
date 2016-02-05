@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="bullet1" destination="Spz-4w-MUa" id="E85-K8-2hY"/>
+                <outlet property="bullet2" destination="zC8-1a-Ntx" id="WPS-Nf-IQ7"/>
+                <outlet property="bullet3" destination="qhP-ol-mCi" id="ViF-O5-e9R"/>
+                <outlet property="bullet4" destination="3XL-lI-9AG" id="6t7-Ze-pCS"/>
+                <outlet property="emailSignUpTextField" destination="SXI-aN-c1C" id="PFb-ti-qGJ"/>
+                <outlet property="emailTextField" destination="dgm-fK-Cdq" id="9eH-Ih-T1j"/>
+                <outlet property="fullnameTextField" destination="gtU-Ck-NwP" id="lfm-fh-vct"/>
+                <outlet property="introScrollView" destination="wUF-ul-dxu" id="5Jc-Dd-7nw"/>
+                <outlet property="passwordConfirmTextField" destination="wib-iB-W0c" id="ocN-dF-GdR"/>
+                <outlet property="passwordSignUpTextField" destination="bh7-rh-fgn" id="CUJ-Ml-CvH"/>
+                <outlet property="passwordTextField" destination="aux-gf-v3b" id="iIz-Lu-dtk"/>
+                <outlet property="signinView" destination="agz-Ub-8TT" id="U22-qM-UAQ"/>
+                <outlet property="signupView" destination="53M-ZN-M5j" id="H0S-kz-Hot"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="wUF-ul-dxu">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro01.png" id="hP5-dr-hvN">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro02.png" id="cz2-9f-gdB">
+                            <rect key="frame" x="320" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro03.png" id="Vww-DX-eIB">
+                            <rect key="frame" x="640" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro04.png" id="TMh-Mb-Mc2">
+                            <rect key="frame" x="960" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                    </subviews>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="KnJ-UY-xKU"/>
+                    </connections>
+                </scrollView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bulletenable.png" id="Spz-4w-MUa">
+                    <rect key="frame" x="126" y="426" width="7" height="7"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bulletdissable.png" id="zC8-1a-Ntx">
+                    <rect key="frame" x="146" y="426" width="8" height="8"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bulletdissable.png" id="qhP-ol-mCi">
+                    <rect key="frame" x="166" y="426" width="8" height="8"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="bulletdissable.png" id="3XL-lI-9AG">
+                    <rect key="frame" x="186" y="426" width="8" height="8"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2WX-3c-lyT">
+                    <rect key="frame" x="101" y="454" width="119" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                    <state key="normal" title="LOGIN">
+                        <color key="titleColor" red="0.88235294119999996" green="0.86274509799999999" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="signIn:" destination="-1" eventType="touchUpInside" id="oUz-sS-jJE"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" id="8js-Re-Jqn">
+                    <rect key="frame" x="100" y="491" width="120" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.88235294117647056" green="0.86274509803921573" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8nd-1k-dTh">
+                    <rect key="frame" x="101" y="501" width="119" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                    <state key="normal" title="SIGN UP">
+                        <color key="titleColor" red="0.88235294119999996" green="0.86274509799999999" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="signUp:" destination="-1" eventType="touchUpInside" id="qEj-FM-pOT"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" id="53M-ZN-M5j">
+                    <rect key="frame" x="0.0" y="568" width="320" height="272"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="signup.png" id="22l-md-Ax1">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="272"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="FULL NAME" textAlignment="center" minimumFontSize="17" id="gtU-Ck-NwP">
+                            <rect key="frame" x="55" y="54" width="209" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="G3S-XE-QI6"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="EMAIL" textAlignment="center" minimumFontSize="17" id="SXI-aN-c1C">
+                            <rect key="frame" x="53" y="92" width="209" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="ak6-kd-9yg"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PASSWORD" textAlignment="center" minimumFontSize="17" id="bh7-rh-fgn">
+                            <rect key="frame" x="55" y="127" width="209" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="iLo-zh-9Ag"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="CONFIRM PASSWORD" textAlignment="center" minimumFontSize="17" id="wib-iB-W0c">
+                            <rect key="frame" x="55" y="166" width="209" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="WLS-Gf-2fL"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="70F-PU-FoU">
+                            <rect key="frame" x="119" y="219" width="82" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="goSignUp:" destination="-1" eventType="touchUpInside" id="pRZ-EQ-kjh"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="agz-Ub-8TT">
+                    <rect key="frame" x="0.0" y="568" width="320" height="196"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="login.png" id="9pq-JH-HBg">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="196"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="EMAIL" textAlignment="center" minimumFontSize="17" id="dgm-fK-Cdq">
+                            <rect key="frame" x="55" y="51" width="209" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="TUl-xy-PUF"/>
+                            </connections>
+                        </textField>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="PASSWORD" textAlignment="center" minimumFontSize="17" id="aux-gf-v3b">
+                            <rect key="frame" x="55" y="89" width="209" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="yTu-W9-RE0"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OUN-Yu-dHq">
+                            <rect key="frame" x="125" y="138" width="72" height="46"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="goLogin:" destination="-1" eventType="touchUpInside" id="uH8-ea-1d0"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.86381199048913038" green="0.86381199048913038" blue="0.86381199048913038" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bulletdissable.png" width="8" height="8"/>
+        <image name="bulletenable.png" width="7" height="7"/>
+        <image name="intro01.png" width="320" height="568"/>
+        <image name="intro02.png" width="320" height="568"/>
+        <image name="intro03.png" width="320" height="568"/>
+        <image name="intro04.png" width="320" height="568"/>
+        <image name="login.png" width="320" height="196"/>
+        <image name="signup.png" width="320" height="272"/>
+    </resources>
+</document>
